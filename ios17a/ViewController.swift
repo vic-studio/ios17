@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         diceImg1.alpha = 0.5;
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+//        print("Button got pressed")
+//        
+        diceImg1.image = #imageLiteral(resourceName: "DiceOne");
+    }
+    
 }
 
